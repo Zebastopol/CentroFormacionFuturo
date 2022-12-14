@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:backgroundTint="@color/light_primary_color"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp"
+    app:cardUseCompatPadding="true">
+
+
+    <LinearLayout
+        android:layout_width="388dp"
+        android:layout_height="171dp"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@color/divider_color"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="211dp"
+            android:layout_height="139dp"
+            android:layout_marginStart="5dp"
+            android:gravity="clip_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_text"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="titulo" />
+
+            <TextView
+                android:id="@+id/tvDesCorta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:gravity="clip_vertical"
+                android:textColor="@color/secondary_text"
+                android:textStyle="italic"
+                tools:text="descripcion" />
+
+            <TextView
+                android:id="@+id/tvSemanas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/secondary_text"
+                tools:text="duracion" />
+
+
+            <TextView
+                android:id="@+id/tvComienza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/secondary_text"
+                tools:text="Inicio" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
