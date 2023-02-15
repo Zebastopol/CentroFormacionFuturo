@@ -18,14 +18,13 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private  val courseViewModel: CourseViewModel by viewModels()
     override fun onCreate(savedInstanceState: Bundle?) {
-        val splashScreen = installSplashScreen()
         binding = ActivityMainBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
         //SplashScreen
         /**splashScreen.setKeepOnScreenCondition{ true }
-        val intent = Intent(this,SplashActivity::class.java)
+        val intent = Intent(this,MainActivity::class.java)
         startActivity(intent)
         finish()**/
 

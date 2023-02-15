@@ -7,15 +7,15 @@ import androidx.test.espresso.contrib.RecyclerViewActions
 import androidx.test.espresso.matcher.ViewMatchers
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.ext.junit.rules.ActivityScenarioRule
+import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.LargeTest
-import androidx.test.runner.AndroidJUnit4
 import com.example.centroformacionfuturo.adapter.CourseAdapter
 import org.junit.Assert.*
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 
-@RunWith(AndroidJUnit4::class)
+@RunWith(androidx.test.ext.junit.runners.AndroidJUnit4::class)
 class MainActivityTest {
 
     @get:Rule
@@ -44,3 +44,5 @@ class MainActivityTest {
             )
     }
 }
+
+annotation class LargeTest

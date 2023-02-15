@@ -3,6 +3,7 @@ package com.example.centroformacionfuturo.ui.view
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.example.centroformacionfuturo.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {
@@ -10,8 +11,12 @@ class SplashActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val splashScreen = installSplashScreen()
         binding = ActivitySplashBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        startActivity(Intent(this,MainActivity::class.java))
+        splashScreen.setKeepOnScreenCondition{ true }
+        val intent = Intent(this,MainActivity::class.java)
+        startActivity(intent)
+        finish()
     }
 }
