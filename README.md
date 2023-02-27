@@ -33,7 +33,6 @@
 
 <br>
 <br>
-<br>
 <p><h2 align="left">
    Librerías 📚
 </h2></p>
