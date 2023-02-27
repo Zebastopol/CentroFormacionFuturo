@@ -15,14 +15,20 @@
 
 > Esta aplicacion resuelve la necesidad del **PMV** (Producto Mínimo Viable) para una oferta de cursos e-learning  ofreciendo las funcionalidades principales de un listado y las características mínimas de una pantalla detalle
 
+
+---
+
+
+<br>
+<br>
+<br>
 <p><h2 align="left"> Puede revisar los requerimientos del caso de uso en el siguiente  </h2></p> 
 
 ([link](https://drive.google.com/file/d/1gg4QpO2su-I2Ra72Tx715nGTmMNxIeO7/view?usp=sharing))
 
 
 
-<br>
-</br>
+
 
 
 <br>
