@@ -1,5 +1,6 @@
-package com.example.centroformacionfuturo.data.model.retrofit
+package com.example.centroformacionfuturo.data.model
 
+import com.example.centroformacionfuturo.data.model.retrofit.Course
 import com.google.gson.annotations.SerializedName
 
 data class CourseModel(

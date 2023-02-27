@@ -1,9 +1,10 @@
-package com.example.centroformacionfuturo.data.model.network
+package com.example.centroformacionfuturo.domain
 
 import com.example.centroformacionfuturo.data.model.retrofit.Course
 import com.example.centroformacionfuturo.data.room.CourseDao
-import com.example.centroformacionfuturo.helper.CourseHelper
-import com.example.centroformacionfuturo.mapper.CourseMapper
+import com.example.centroformacionfuturo.core.helper.CourseHelper
+import com.example.centroformacionfuturo.core.mapper.CourseMapper
+import com.example.centroformacionfuturo.data.model.network.CourseApiService
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import javax.inject.Inject

@@ -1,4 +1,4 @@
-package com.example.centroformacionfuturo.helper
+package com.example.centroformacionfuturo.core
 
 import com.example.centroformacionfuturo.data.model.retrofit.CourseModel
 

@@ -1,4 +1,4 @@
-package com.example.centroformacionfuturo.mapper
+package com.example.centroformacionfuturo.core
 
 import com.example.centroformacionfuturo.data.model.retrofit.Course
 import com.example.centroformacionfuturo.data.room.CourseEntity

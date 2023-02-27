@@ -1,6 +1,6 @@
-package com.example.centroformacionfuturo.data.model.network
+package com.example.centroformacionfuturo.data.network
 
-import com.example.centroformacionfuturo.data.model.retrofit.CourseModel
+import com.example.centroformacionfuturo.data.model.CourseModel
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Path
